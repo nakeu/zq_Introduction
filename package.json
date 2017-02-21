@@ -1,0 +1,35 @@
+{
+  "name": "zq_introduction",
+  "version": "1.0.0",
+  "description": "zhanqu Introduction",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1",
+    "install": "^0.8.7",
+    "jshint": "^2.9.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nakeu/zq_Introduction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nakeu/zq_Introduction/issues"
+  },
+  "homepage": "https://github.com/nakeu/zq_Introduction#readme"
+}

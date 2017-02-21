@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-cn" class="no-js">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type">
+<meta content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<title>亲爱的小伙伴 我们约吗？</title>		
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="email=no">
+<meta name="publisher" content="www.nakeu.com">
+<link rel="stylesheet" type="text/css" href="assets/css/main.min.css">
+<!--<link rel="stylesheet" type="text/css" href="http://www.sungoal.org/yuanxiao/css/share.css"/>-->
+
+
+
+
+
+</head>
+<body>
+
+<div id="page-hd">
+	<div id="loading">
+
+		<div class="spinner">
+		  <div class="spinner-container container1">
+			<div class="circle1"></div>
+			<div class="circle2"></div>
+			<div class="circle3"></div>
+			<div class="circle4"></div>
+		  </div>
+		  <div class="spinner-container container2">
+			<div class="circle1"></div>
+			<div class="circle2"></div>
+			<div class="circle3"></div>
+			<div class="circle4"></div>
+		  </div>
+		  <div class="spinner-container container3">
+			<div class="circle1"></div>
+			<div class="circle2"></div>
+			<div class="circle3"></div>
+			<div class="circle4"></div>
+		  </div>
+		</div>
+	</div>
+	<img src="assets/images/icon_top.png" alt="" class="arrow-up fadetop">
+</div>
+
+<div id="page-content" class="warp">
+	
+	<!--场景1-->
+	<div class="page page-1 page-current">
+		
+	</div>
+	
+	<!--场景2-->
+	<div class="page page-2 hide">
+		
+	</div>
+	
+	<!--场景3-->
+	<div class="page page-3 hide">
+		
+	</div>
+
+	<!--场景4-->
+	<div class="page page-3 hide">
+		
+	</div>
+
+	<!--场景5-->
+	<div class="page page-3 hide">
+		
+	</div>
+
+	<!--场景6-->
+	<div class="page page-3 hide">
+		
+	</div>
+
+	<!--场景7-->
+	<div class="page page-3 hide">
+		
+	</div>
+
+	<!--场景8-->
+	<div class="page page-3 hide">
+		
+	</div>
+
+	<!--场景9-->
+	<div class="page page-3 hide">
+		
+	</div>
+
+	<!--场景10-->
+	<div class="page page-3 hide">
+		
+	</div>
+
+	<!--场景11-->
+	<div class="page page-3 hide">
+		
+	</div>
+
+	<!--场景12-->
+	<div class="page page-3 hide">
+		
+	</div>
+	
+</div>
+
+<div id="page-ft"></div>
+
+
+<!--music-->
+<audio id="a1" autoplay loop src="201509.mp3"></audio>
+<div class="btn-a1" id="btn-a1">
+<p class="b1" style="display:none;">开始</p>
+<p class="b2">结束</p>
+
+</div>
+
+<!--music--> 
+
+<script type="text/javascript" src="assets/js/zepto.min.js"></script>
+<script type="text/javascript" src="assets/js/touch.js"></script>
+<script type="text/javascript" src="assets/js/all.min.js"></script>
+
+<script>
+
+	var audio=document.getElementById('a1');
+	$('#btn-a1').on('tap', function (ev) {
+	    if (audio.paused) {
+	        audio.play();
+	        $(".b1").hide(100);
+	        $(".b2").show(100);
+	    } else {
+	        audio.pause();
+	        $(".b2").hide(100);
+	        $(".b1").show(100);
+	    }
+	});
+
+	$(document).one('touchstart', function () {
+	    audio.play();
+	});
+	
+
+	
+	
+	
+
+</script>
+
+</body>
+</html>
